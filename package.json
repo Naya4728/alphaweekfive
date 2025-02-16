@@ -1,0 +1,20 @@
+{
+  "name": "alphaweekfive",
+  "version": "1.0.0",
+  "description": "introduction to Tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "olayinka":"npx @tailwindcss/cli -i ./naya.css -o ./stephen.css --watch"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Olayinka adenaya",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6",
+    "tailwindcss": "^4.0.6"
+  }
+}
