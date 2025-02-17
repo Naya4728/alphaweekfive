@@ -34,3 +34,11 @@
 .bottom > div:first-child{
     padding: 2px;
 }
+.card:hover{
+    transform: rotateY(90deg) scale(1.5);
+    transition: transform 3s;
+}
+.card :active{
+transform: rotate(180deg);
+transition: transform 3s;
+}
