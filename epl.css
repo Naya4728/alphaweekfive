@@ -13,6 +13,7 @@
         text-align: center;
         border-collapse: collapse;
     }
+}
 
     thead{
         text-transform: capitalize;
@@ -51,7 +52,7 @@
     table span:first-of-type{
         display: inline;
     }
-    @media screen and (max-width: 540px){
+    @media screen and (max-width:540px){
         thead th:nth-of-type(n+4){
             display: none;
         }
@@ -65,9 +66,17 @@
             display: table-cell;
         }
         
-
-
+        table span:last-of-type{
+        display: inline;    
+        }
+      table span first-of-type{
+        display: none;
+       }
+      @media screen and (orientation: landscape){
+        table{
+            background-color: khaki;
+     }
         
-    }
+      }
 
 }
